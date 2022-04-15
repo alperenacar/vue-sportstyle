@@ -1,0 +1,25 @@
+{
+    "name": "sportstyle",
+    "private": true,
+    "version": "0.0.0",
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build",
+        "watch": "npx tailwindcss -i src/assets/css/tailwind.css -o src/assets/css/build.css -w --minify",
+        "preview": "vite preview"
+    },
+    "dependencies": {
+        "swiper": "^8.1.0",
+        "tw-elements": "^1.0.0-alpha12",
+        "vue": "^3.2.25",
+        "vue-router": "^4.0.14"
+    },
+    "devDependencies": {
+        "@vitejs/plugin-vue": "^2.3.0",
+        "autoprefixer": "^10.4.4",
+        "jquery": "^3.6.0",
+        "postcss": "^8.4.12",
+        "tailwindcss": "^3.0.23",
+        "vite": "^2.9.0"
+    }
+}
